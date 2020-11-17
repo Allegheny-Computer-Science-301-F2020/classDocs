@@ -30,7 +30,7 @@ y2 <- 80488
 We find the slope and build the line equation with the following function. The `x_input` is the year for which we want a corresponding value of cases.  
 
 ```
-getCases <- function(x1, x2, y1, y2, x_input)
+getCases <- function(bx1, bx2, by1, by2, x_input)
   {
   # find slope
   m = (by2 - by1)/(bx2 - bx1)
